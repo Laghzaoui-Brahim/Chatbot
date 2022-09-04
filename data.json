@@ -1,0 +1,318 @@
+ {
+    "intents": 
+            [
+                {
+                    "tag": "blank",
+                    "patterns": [],
+                    "responses": [
+                      "Sorry, can't understand you!",
+                      "Please give me more info!",
+                      "Not sure I understand!",
+                      "Could you please be more specific!",
+                      "Could you please rephrase that for me!"]
+                },
+
+                {
+                    "tag": "greetings",
+                    "patterns": [
+                      "hello",
+                      "Hey",
+                      "hi",
+                      "Hi there",
+                      "good day",
+                      "is anyone there?",
+                      "how are you",
+                      "Good evening",
+                      "Good morning",
+                      "how is it going",
+                      "whatsup",
+                      "What's up",
+                      "sup",
+                      "greetings"
+                    ],
+                    "responses": [
+                      "Hello, thanks for visiting!",
+                      "Good to see you here!",
+                      "Hi there, how can I help?",
+                      "Hello there, nice to meet you!",
+                      "Hello, how can I be helpful?"
+                    ]
+                },
+
+                {
+                    "tag": "help",
+                    "patterns": [
+                        "help",
+                        "assist",
+                        "support",
+                        "i need help",
+                        "help me",
+                        "i need your support",
+                        "i need your assist"
+                    ],
+                    "responses": [
+                        "I'm glad to help. What can I do for you ?",
+                        "Sure. How may I assist you ?"
+                    ]
+                },
+
+                {
+                    "tag": "about",
+                    "patterns": [
+                        "What can you do?",
+                        "How you could help me?",
+                        "what are your features?",
+                        "What are you abilities?",
+                        "tell me about you",
+                        "what is your story",
+                        "define yourself for me",
+                        "who are you?",
+                        "What is your name?",
+                        "how could you help me?",
+                        "What help do you provide?",
+                        "what do you offer?",
+                        "How you can be helpful?",
+                        "What support is offered",
+                        "your name"
+                    ],
+                    "responses": [
+                        "I am your intelligent SOI assistant. I can help you learn about SOI, and I am here in your service.<br> My capabilities are : <br> 1. I can chat with you."
+                    ]
+                },
+
+                {
+                    "tag": "goodbye",
+                    "patterns": [
+                        "Bye", 
+                        "See you later", 
+                        "Goodbye", 
+                        "Nice chatting to you, bye", 
+                        "Till next time"        
+                    ],
+                    "responses": [
+                        "Have a nice day", 
+                        "Bye! Come back again soon.",
+                        "See you later, thanks for visiting!",
+                        "have a nice day!",
+                        "Nice chatting, bye!"
+                    ]
+                },
+
+                {
+                    "tag": "thanks",
+                    "patterns": [
+                        "Thanks", 
+                        "Thank you", 
+                        "That's helpful", 
+                        "nice one", 
+                        "awesome", 
+                        "i appreciate your help",
+                        "Great",
+                        "good",
+                        "nice"
+                    ],
+                    "responses": [
+                        "Welcome, it's my pleasure to help you.",
+                        "Happy to help you!"
+                    ]
+                },
+
+                {
+                    "tag": "ODD",
+                    "patterns": [
+                        "ODD", 
+                        "How to check the ODD pattern", 
+                        "How to check ODD", 
+                        "How do I get to ODD", 
+                        "What is the ODD of the item"
+                    ],
+                    "responses": [
+                        "check stock matiriel with id itme in sap"
+                    ]
+                },
+                {
+                    "tag": "Status",
+                    "patterns": [
+                        "Status", 
+                        "give me my status", 
+                        "check the status pattern",
+                        "my item Status ", 
+                        "Can I get my status", 
+                        "What is the Status of the item", 
+                        "Status item",
+                        "What is my Item status"
+                    ],
+                    "responses": [
+                        "What's number of type AM for this item ?"
+                    ]
+                },
+                {
+                    "tag": "SOI",
+                    "patterns": [
+                        "I want to know the SOI ?", 
+                        "Track request", 
+                        "I want to track a request for client ?",
+                        "SOI", 
+                        "How can i track request ?", 
+                        "What is my SOI",
+                        "get my SOI", 
+                        "Check request",
+                        "track demand for client",
+                        "check demand for client"
+                    ],
+                    "responses": [
+                        "Could you please specify for which activities : <br>- For A330 TLS : <br> <a href='https://drive.google.com/file/d/1OozrrkW6Nzaacuw6hfsPdJCR9wz84Q7w/view' target='_blank'>- Secondary Workflow</a> <br> <a href='https://drive.google.com/file/d/1bxDIsfZREZl77cJh1DE1xAD0hpfKSAPJ/view' target='_blank'>- Check Missing Parts(MP)</a> <br> <a href='https://drive.google.com/file/d/1Uoaks3XDo2KUAYYSLoaLNUb-n5RXTDh8/view' target='_blank'>- Section Dispatch</a> <br> <a href='https://drive.google.com/file/d/1K7eXhslOxXJ59xpUoYAYHPoj1YeuTjZl/view' target='_blank'>- Ordering and Creating new Needs of Orphan Parts</a><br> <a href='https://drive.google.com/file/d/1V5lHnOMO-JEDSFLhU5TcIaaCL-6vH_n8/view' target='_blank'>- ECO</a> <br>- For A320 TLS  <br> <a href='https://docs.google.com/document/d/11Wn8wP12sr3JS2ez_0k0S1EWovSocIjg/edit' target='_blank'>- Secondary Workflow</a> <br> <a href='https://docs.google.com/document/d/1qWjLoEYVC0bJze7KSNe7zjlvdBNCM7IZ/edit' target='_blank'>- LW-Web Assy</a><br> <a href='https://docs.google.com/document/d/1hz1xJal5ILCl1vboNzPNThBla0eLAkm2/edit' target='_blank'>- Send to Stute the DN of RAT (Ram Air Turbine)</a> "
+                    ]
+                },
+                {
+                    "tag": "Create WO",
+                    "patterns": [
+                        "create WO",
+                        "create Work order",
+                        "How to create WO", 
+                        "How do i create WO", 
+                        "What are procedure to create WO", 
+                        "process to create WO",
+                        "creation of WO"
+                    ],
+                    "responses": [
+                        "To create Work Order : <a href='https://docs.google.com/document/d/1pw7U0eyObx_ByWIhx3St4gLrbm2BsDBv/edit' target='_blank'>click here.</a>"
+                    ]
+                },
+                {
+                    "tag": "Create DN",
+                    "patterns": [
+                        "create DN", 
+                        "How to create DN", 
+                        "How do i create DN", 
+                        "What are procedure to create DN", 
+                        "process to create DN",
+                        "creation of DN"
+                    ],
+                    "responses": [
+                        "To create Delivery note : <a href='https://docs.google.com/document/d/1E4mAIN_FAysYmsnnVkysBCr7eoPgMXV0/edit' target='_blank'>click here.</a>"
+                    ]
+                },
+                {
+                    "tag": "reserve a need",
+                    "patterns": [
+                        "reserve a need",
+                        "What can i do to reserve a need",
+                        "How can i reserve a need",
+                        "What are procedure to reserve a need ",
+                        "How to reserve a need"      
+                    ],
+                    "responses": [
+                        "To reserve a need : <a href='https://docs.google.com/document/d/12Agy2jSqXh1WbjT2YGBZ_2MyVpWZBYrP/edit' target='_blank'>click here.</a>"
+                    ]
+                },
+                {
+                    "tag": "push a need",
+                    "patterns": [
+                        "push a need",
+                        "What can i do to push a need",
+                        "How can i push a need",
+                        "What are procedure to push a need",
+                        "How to push a need"      
+                    ],
+                    "responses": [
+                        "To push a need : <a href='https://docs.google.com/document/d/1AegRaLtJW6gPQmmophaduHTAhLLJhdgd/edit' target='_blank'>click here</a>"
+                    ]
+                },
+                {
+                    "tag": "track a PO",
+                    "patterns": [
+                        "track a PO",
+                        "track a Purchase Order",
+                        "What can i do to track a PO",
+                        "How can i track a PO",
+                        "What are procedure to track a PO",
+                        "How to track a PO"      
+                    ],
+                    "responses": [
+                        "To track a Purchase Order : <a href='https://docs.google.com/document/d/19DGkFWZidU8R4pdlZwd-G9YJdJ_BpgyE/edit' target='_blank'>click here.</a>"
+                    ]
+                },
+                {
+                    "tag": "track a WO",
+                    "patterns": [
+                        "track a WO",
+                        "track a Work Order",
+                        "What can i do to track a WO",
+                        "How can i track a PO",
+                        "What are procedure to track a WO"
+                              
+                    ],
+                    "responses": [
+                        "To know how you to track a Work Order : <a href='https://docs.google.com/document/d/1fTvdzq4SMjGay8-b927cH0cmmsfpCSlU/edit' target='_blank'>click here.</a>"
+                    ]
+                },
+                {
+                    "tag": "check stock",
+                    "patterns": [
+                        "check stock",
+                        "What can i do to check stock",
+                        "How can i check stock",
+                        "What are procedure to check stock",
+                        "How to check stock" ,
+                        "check stock item"     
+                    ],
+                    "responses": [
+                        "To know how you to check stock : <a href='https://docs.google.com/document/d/1P2v0cA4Y-x_wpmRdrlcSq3TeRugbmuYd/edit' target='_blank'>click here.</a>"
+                    ]
+                },
+                {
+                    "tag": "contact SO",
+                    "patterns": [
+                        "contact SO",
+                        "email to SO",
+                        "how to send email to SO",
+                        "how to contact SO",
+                        "What can i do to contact SO",
+                        "How can i contact SO",
+                        "What are procedure to contact SO"
+                    ],
+                    "responses": [
+                        "To Contact SO : <a href='https://docs.google.com/document/d/1RyW7ZfmMIo8bOSBUb1zUJEgWBhrSa6wI/edit' target='_blank'>click here.</a>"
+                    ]
+                },
+                {
+                    "tag": "what is Airbus",
+                    "patterns": [
+                        "what is Airbus",
+                        "Airbus",
+                        "what is mean Airbus",
+                        "About Airbus",
+                        "who we are"
+                    ],
+                    "responses": [
+                        "Airbus Commercial Aircraft, known as Airbus S.A.S., is a European aircraft manufacturer headquartered in Blagnac, a suburb of Toulouse, France. A division 100% owned by the industrial group of the same name, the company manufactures more than half of the airliners produced in the world, and is Boeing's main competitor.<a href='https://www.airbus.com/en/who-we-are' target='_blank'> Read More.</a>"
+                    ]
+                },
+                {
+                    "tag": "Airbus production",
+                    "patterns": [
+                        "what Airbus do",
+                        "Airbus Production",
+                        "what we do",
+                        "what airbus can do"
+                    ],
+                    "responses": [
+                        "Airbus Engineering is the division of Airbus responsible for the design, production and final assembly of Airbus aircraft and is organized around competence centres responsible for development and design, centres of excellence responsible for production and the architecture and integration center responsible for the organization of engineering<a href='https://www.airbus.com/en/what-we-do' target='_blank'> Read More.</a>"
+                    ]
+                },
+                {
+                    "tag": "Products and Services Airbus",
+                    "patterns": [
+                        "Products & Services Airbus",
+                        "Products and Services Airbus",
+                        "Products Airbus",
+                        "Services Airbus",
+                        "waht is Products and Services Airbus"
+                    ],
+                    "responses": [
+                        "Airbus designs, produces, and delivers innovative solutions with the purpose of pioneering sustainable aerospace for a safe and united world – taking full advantage of its decades of experience and wide-ranging expertise.<a href='https://www.airbus.com/en/products-services' target='_blank'> Read More.</a>"
+                    ]
+                }
+            ]
+}
